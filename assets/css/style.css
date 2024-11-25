@@ -1,0 +1,82 @@
+:root {
+    --ligth: #f8f9fa;
+    --white: white;
+    --primary: rgb(164, 191, 248);
+  }
+  
+  * {
+    font-family: "Roboto", sans-serif;
+  }
+  body {
+    background-color: var(--white);
+  }
+  
+  .navbar {
+    flex-wrap: inherit;
+    font-weight: 300;
+  }
+  
+  .color-fondo {
+    background-color: var(--primary);
+  }
+  
+h1{
+   
+    text-align:center;
+    color:white;
+   
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, .55);
+  border-color: rgba(255, 255, 255, .1);
+}
+.navbar-toggler {
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+ 
+}
+
+button, select {
+  text-transform: none;
+}
+.flex-table { 
+  display: flex; 
+  flex-direction: column; 
+  width: 100%;
+ } 
+ .flex-row { 
+  display: flex;
+   flex-direction: row; 
+  border: 3px solid rgb(164, 191, 248);
+ } 
+ .flex-cell {
+   flex: 1; 
+   padding: 2px; 
+   align-content: center;
+  background-color:rgb(208, 223, 255) ;
+  } 
+  
+  
+   img {
+     width: 100%;
+      height: auto;
+     
+     }
+.my-5{
+  margin-top: 5rem !important;
+  margin-bottom: 3rem !important;
+}
+.display-1{
+  background-color: rgb(208, 223, 255);
+}
+footer{
+  color: white;
+  background-color: rgb(164, 191, 248);
+}
+
+
