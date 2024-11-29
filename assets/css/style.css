@@ -11,10 +11,10 @@
     background-color: var(--white);
   }
   
-  .navbar {
+ /*  .navbar {
     flex-wrap: inherit;
     font-weight: 300;
-  }
+  } */
   
   .color-fondo {
     background-color: var(--primary);
